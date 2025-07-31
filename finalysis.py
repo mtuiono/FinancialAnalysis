@@ -30,7 +30,7 @@ def portfolio_optimization(returns):
     return np.ones(len(returns.columns)) / len(returns.columns)
 
 
-st.title("Financial Analysis Web App")
+st.title("Financial Analysis Web App by Paul")
 # User inputs
 tickers = st.text_input("Enter stock tickers (comma separated)", "AAPL, MSFT, GOOG").split(",")
 tickers = [ticker.strip() for ticker in tickers]
